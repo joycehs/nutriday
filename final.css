@@ -1,0 +1,140 @@
+body{
+    background-image:url(./img/nutri4.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:white;
+}
+.topo-div{
+    text-align: center;
+    color: white;
+    background-color:white;
+    margin-left:43px;
+    margin-right: 43px;
+    width: 1340px;
+    height: 150px;
+    line-height:150px;
+    background-position: center;
+    opacity:90%;
+}
+
+ .menu-id li {
+    background-color:#A2CD5A;
+    padding:7px 197px;
+    font-size: 117%;
+    margin-left:0px;
+    display: inline-block;
+    font-weight: bold;
+    opacity:90%;
+}
+#submenu-id li{
+    background-color:#A2CD5A;
+    padding:7px 7px;
+    opacity:100%;
+    width:200px;
+    height:30px;
+    font-size: 100%;
+    margin-top:5px;
+    font-weight: bold;
+    list-style:none;
+    text-align:center;
+    line-height:30px;
+    border-radius: 5px;
+}
+#submenu-id{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    
+}
+
+a{
+     color:black;
+     text-decoration:none;
+}
+a :hover{
+    color:white;
+    
+}
+.corpo-div{
+    background-color:white;
+    width: 1340px;
+    height:660px;
+    margin-left: 43px;
+    margin-right:43px;
+    opacity:90%;
+}
+.rodape-div{
+    text-align: center;
+    color:black;
+    background-color:#A2CD5A;
+    margin-left:43px;
+    margin-right: 43px;
+    width: 1340px;
+    height: 30px;
+    line-height:30px;
+    opacity:90%;
+}
+.detalhescorpo-div{
+    
+    background-color:white;
+    font-size: 10px;
+    width: 1035px;
+    height:500px;
+    float:right;
+    margin-right:10px;
+    margin-top:30px;
+    opacity:100%;
+}
+.detalhescorpo-div p{
+    font-size:20px;
+}
+#logotopo{
+    padding: 10px ;
+}
+.img-id{
+height:170px;
+float: left;
+margin-right: 20px;
+margin-top:-11px;
+
+}
+#prato1{
+    font-size:14px;
+   font-family:cursive;
+   margin-top:15px;
+
+}
+#prato2{
+    font-size:14px;
+    font-family:cursive;
+}
+#texto-id{
+    font-size: 21px;
+    position: absolute;
+    margin-top:60px;
+    margin-left:60px;
+    margin-right:80px;
+    text-align: center;
+}
+#tabelaimc-id{
+    font-family: cursive;
+    position: relative;
+    text-align: center;
+    border: black solid 2px;
+    padding: 40px;
+    float: left;
+    margin-left:200px;
+    margin-top: 190px;
+    border-radius:16px;
+}
+#imc-id{
+  height:350px;
+  float: right;
+  margin-right: 200px;
+  margin-top: 125px;
+  border-radius: 16px;
+   
+}
+ 
+

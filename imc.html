@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icone/folha.jpg">
+    <link rel="stylesheet" href="final.css">
+    <script src="imc.js" type="text/javascript"></script>
+    <title>nutriday</title>
+</head>
+<body>
+    <div class="topo-div">
+        <img src="./img/logojoice.png" alt="" id="logotopo">
+    </div>
+    <header>
+        <ul class= "menu-id">
+               <li><a href="index.html">Início</a></li>
+               <li><a href="cardapio.html">Cardápio</a></li>
+               <li><a href="imc.html" > IMC</a></li>
+            </ul>
+        
+    </header>
+    <div class="corpo-div" > 
+        <br>
+   <table id="tabelaimc-id">
+       <tr><td colspan="2">Informe peso e altura para  calcular o IMC </td></tr>
+       <tr>
+          <td align="right">Peso:</td>
+          <td align="left"><input type="text" id="peso" placeholder="Exemplo: 60.1"></td>
+       </tr>
+          
+       <tr>
+            <td align="right">Altura:</td>
+            <td align="left"><input type="text" id="altura" placeholder="Exemplo: 1. 66"></td>
+       </tr>
+       <tr>
+           <td></td>
+           <td> <button type="button" id="calcular" onclick="calcularimc()">Calcular</button> 
+                <button type="button" id="limpar" onclick="limpar()">Limpar</button></td>
+       </tr>
+       <tr>
+        <td align="right">Resultado:</td>
+        <td align="left"><input type="text" id="resultado"></td>
+       </tr>
+   </table>
+   <br>
+   <img src="./img/tabela1.png" id="imc-id">
+    </div>
+    <div class="rodape-div">
+        <p>Desenvolvido por Joyce Layani - 2021</p> 
+    </div>
+</body>
+
+</html>
